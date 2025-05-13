@@ -1,0 +1,81 @@
+.ror{
+  border: 1px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.rar{
+  width: 200px;
+  object-fit: cover;
+}
+
+.rir{
+  width: 200px;
+  border-radius: 100px;
+}
+
+.textbox{
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.rounded{
+  border-radius: 5px;
+}
+
+.shadow{
+  width: 80%;
+  padding: 12px 16px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+
+.email{
+  font-family: arial;
+  color: gray;
+}
+
+.box{
+  padding: 2px 115px;
+}
+
+.by{
+  font-family: arial;
+}
+
+.agree{
+  background-color: blue;
+  border: none;
+  font-weight: bold;
+  padding: 10px 160px;
+  color: white;
+  border-radius: 20px;
+}
+
+.rab{
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.happy{
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  vertical-align: middle;
+}
+
+.twet{
+  background-color: rgba(53, 138, 249, 0.957);
+  border:  rgba(53, 138, 249, 0.957);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 70px;
+}

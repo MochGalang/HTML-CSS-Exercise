@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 4</title>
+  <style>
+    button.uber{
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    button.uber:hover {
+      opacity: 1;
+    }
+  </style>
+
+  <style>
+    button.amazon{
+      background-color: rgb(255, 216, 20);
+      color: black;
+      border: none;
+      font-weight: bold;
+      padding: 5px 35px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    button.amazon:hover {
+      background-color: rgb(255, 200, 0);
+    }
+  </style>
+
+  <style>
+    button.github{
+      background-color: rgb(46, 164, 79);
+      color: white;
+      border: none;
+      font-weight: bold;
+      padding: 10px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.3);
+    }
+
+    button.github:hover {
+      box-shadow: 5px 5px 10px rgb(0,0,0.5);
+    }
+  </style>
+
+  <style>
+    button.bootstrap-primary{
+      background-color: rgb(121, 82, 179);
+      color: white;
+      border: none;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button.bootstrap-primary:hover{
+      background-color: rgb(88, 31, 175);
+    }
+  </style>
+
+
+  <style>
+    button.bootstrap-secondary{
+      background-color: white;
+      color: rgb(108, 117, 125);
+      border:2px solid rgb(108, 117, 125);
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button.bootstrap-secondary:hover{
+      background-color: rgb(164, 164, 164);
+      color: white;
+      border: none;
+    }
+  </style>
+
+<style>
+  button.linkedln-primary{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  button.linkedln-primary:hover{
+    background-color: rgb(0, 72, 145);
+  }
+</style>
+
+<style>
+  button.linkedln-secondary{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 2px solid rgb(10, 102, 194);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  button.linkedln-secondary:hover{
+    border-width: 3px;
+    background-color: rgb(214, 234, 255);
+
+  }
+</style>
+
+<style>
+  button.tweet{
+    color: white;
+    background-color:  rgb(32, 122, 212);
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  button.tweet:hover{
+    background-color: rgb(0, 72, 145);
+  }
+</style>
+
+<style>
+  button.join{
+    color: rgb(32, 122, 212);
+    background-color: white;
+    border: 2px solid rgb(32, 122, 212);
+    font-weight: bold;
+    padding: 9px 15px ;
+    cursor: pointer;
+  }
+
+  button.join:hover{
+    border: none;
+    color: white;
+    background-color: rgb(17, 76, 135);
+  }
+</style>
+
+<style>
+  button.subs{
+    color: white;
+    background-color: rgb(205, 32, 31);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+  }
+
+  button.subs:hover{
+    background-color: rgb(153, 0, 0);
+  }
+</style>
+
+<style>
+  .pagination{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button.page{
+    background-color: white;
+    border-radius: 2px solid black;
+  }
+
+button.page1{
+  background-color: black;
+}
+
+button.back, button.next{
+  background-color: black;
+  color: white;
+}
+
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+</style>
+
+<style>
+  button.lebar{
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border: none;
+    transition: 1s;
+  }
+
+button.lebar:hover{
+  padding: 20px;
+  transition: 1s;
+}
+</style>
+
+<style>
+  button.shadow{
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0,0,0.5);
+    transform: translateX(-2px) translateY(-4px);
+
+  }
+
+  button.shadow:active{
+    transform: translateX(0) translateY(0);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+  }
+</style>
+
+<style>
+  button.margin{
+    color: white;
+    background-color: green;
+    padding: 10px 15px;
+    border: none;
+    margin: 20px;
+    transition: 0.5s;
+  }
+
+  button.margin:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    transition: 0.5s;
+  }
+</style>
+</head>
+<body>
+  <p>4a.uber</p>
+<button class="uber">Request now</button>
+      <br><br>
+  <p>4b.amazon</p>
+  <button class="amazon">Add to Cart</button>
+  <br><br>
+  <p>4c.github</p>
+  <button class="github">Sign up</button>
+  <br><br>
+  <p>4d.Bootstrap</p>
+  <button class="bootstrap-primary">Get started</button>
+  <button class="bootstrap-secondary">Download</button>
+  <br><br>
+  <p>4e.linkedln</p>
+  <button class="linkedln-primary">Apply on company website</button>
+  <button class="linkedln-secondary">Save</button>
+  <br><br>
+  <p>4f</p>
+  <button class="join">Join</button>
+  <button class="tweet">Tweet</button>
+  <br><br>
+  <p>4g</p>
+  <button class="subs">Subscribe</button>
+  <br><br>
+  <p>4h</p>
+  <div class="pagination">
+    <button class="back" disabled>Back</button>
+  <a href=""></a>
+  <button class="page1"><a href="" ><b><font color="white">1</font></b></a></button>
+  <a href=""></a>
+  <button class="page2"><a href="" ><b><font color="black">2</font></b></a></button>
+  <button class="page2"><a href="" ><b><font color="black">3</font></b></a></button>
+  <button class="page2"><a href="" ><b><font color="black">4</font></b></a></button>
+  <a href=""></a>
+    <button class="next">Next</button>
+  </div>
+  <br><br>
+  <p>4i</p>
+  <button class="lebar">Strech</button>
+  <br><br>
+  <p>4j</p>
+  <button class="shadow">Shadow</button>
+  <br><br>
+  <p>4k</p>
+  <button class="margin">One</button>
+  <button class="margin">Two</button>
+  <button class="margin">Three</button>
+</body>
+</html>

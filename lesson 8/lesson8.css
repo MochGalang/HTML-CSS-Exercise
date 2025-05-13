@@ -1,0 +1,102 @@
+.nama{
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+
+.no{
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.yes{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+.cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gog {
+  width: 300px;
+  height: auto;
+}
+
+.shadow {
+  width: 80%;
+  max-width: 500px;
+  padding: 12px 16px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.firstname{
+  width: 100px;
+  height: 30px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.emaill{
+  display: block;
+  width: 210px;
+  height: 30px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.signup{
+  border: none;
+  background-color: rgb(47, 177, 255);
+  color: white;
+  width: 215px;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.font{
+  font-family: arial;
+}
+
+.lokasi{
+  display: block;
+  margin-bottom: 5px;
+  height: 29px;
+  width: 270px;
+}
+
+.destinasi{
+  display: block;
+  margin-bottom: 30px;
+  height: 27px;
+  width: 270px;
+}
+
+.now{
+  border: none;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 110px;
+}
+
+.later{
+  border: none;
+  height: 40px;
+  width: 130px;
+  margin-left: 20px;
+}
