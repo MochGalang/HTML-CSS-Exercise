@@ -12,6 +12,7 @@
   width: 40px;
   border-radius: 50%;
   vertical-align: middle;
+
 }
 
 .info{
@@ -41,4 +42,151 @@
   border-radius: 5px;
   padding: 8px;
   width: 70px;
+}
+
+.container{
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imgg{
+  width: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.video-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 100px;
+  margin-right: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.desk {
+  font-family: arial;
+  color: gray;
+  font-size: 14px;
+}
+
+.card {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+  vertical-align: top;
+}
+
+.card img.profile-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  padding-left: 10px;
+  font-family: arial;
+}
+
+.mutual-friends {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 6px;
+  font-family: arial;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.mutual-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.card button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.card button:hover {
+  background-color: #0f5ace;
+}
+
+.container {
+  text-align: center;
+}
+
+.cardd {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  vertical-align: top;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.mutual-friends {
+  color: gray;
+  margin: 0 0 10px;
+}
+
+button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
 }

@@ -1,0 +1,83 @@
+.grid1{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.col1{
+  background-color: pink;
+}
+ 
+.col2 {
+  background-color: rgb(97, 77, 228);
+}
+
+.grid2
+{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-top: 20px;
+}
+
+.col3, .col5
+{
+  background-color: rgb(97, 77, 228);
+}
+
+.col4
+{
+  background-color: pink;
+}
+
+.grid3
+{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.col6
+{
+  background-color: pink;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.mutual-friends {
+  color: gray;
+  margin: 0 0 10px;
+}
+
+button {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
