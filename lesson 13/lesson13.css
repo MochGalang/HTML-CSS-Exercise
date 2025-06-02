@@ -1,0 +1,202 @@
+/* Soal 13a */
+.container-13a {
+  display: flex;
+  width: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.item1-13a {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item2-13a {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;
+  width: 400px;
+  border: 2px solid white;
+  font-family: sans-serif;
+}
+
+.left {
+  width: 100px;
+  background-color: pink;
+}
+
+.right {
+  display: flex;
+  background-color: lightblue;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.right-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.item {
+  background-color: black;
+  color: white;
+  padding: 2px 6px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+
+.email-card {
+  background-color: #fff;
+  color: #000;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 10px 15px;
+}
+
+.email-header {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.email-content {
+  display: flex; /* horizontal layout */
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.email-text {
+  display: flex;
+  flex-direction: column; /* vertical layout */
+  flex: 1;
+  font-family: Arial, sans-serif;
+}
+
+.email-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.sender {
+  font-size: 14px;
+}
+
+.time {
+  font-size: 12px;
+  color: gray;
+}
+
+.email-subject {
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.email-preview {
+  font-size: 13px;
+  color: gray;
+}
+
+.email-card2 {
+  background-color: #fff;
+  color: #000;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 10px 15px;
+  border: 1px solid;
+}
+
+.tweet {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tweet-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-info {
+  display: flex;
+  gap: 5px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
+.handle {
+  color: gray;
+  font-weight: normal;
+}
+
+.tweet-text {
+  line-height: 1.4;
+  font-family: arial, sans-serif;
+}
+
+.link-preview {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.link-thumbnail {
+  width: 100px;
+  background-color: #ddd;
+}
+
+.link-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-url {
+  color: gray;
+  font-size: 12px;
+    font-family: arial, sans-serif;
+}
+
+.link-title {
+  font-size: 14px;
+  font-weight: bold;
+    font-family: arial, sans-serif;
+}
